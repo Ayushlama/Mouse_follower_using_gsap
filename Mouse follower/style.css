@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    font-weight: lighter;
+    background-color: black;
+    color: white;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+}
+
+.maindiv{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.mousefollower{
+    height: .6vw;
+    position: fixed;
+    width: .6vw;
+    background-color: rgb(255, 252, 252);
+    border-radius: 50%;
+    transition: transform 0.1s ease;
+
+    pointer-events: none;
+}
+
+.text {
+    padding-top: 3vw;
+    font-size: 24px;
+}
